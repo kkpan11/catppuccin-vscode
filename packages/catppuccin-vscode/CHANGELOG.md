@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.16.0](https://github.com/kkpan11/catppuccin-vscode/compare/@catppuccin/vscode-v3.15.2...@catppuccin/vscode-v3.16.0) (2024-09-10)
+
+
+### Features
+
+* **npm:** customization API ([#334](https://github.com/kkpan11/catppuccin-vscode/issues/334)) ([27cee1d](https://github.com/kkpan11/catppuccin-vscode/commit/27cee1d384b5a1bb46b29f288ff5a3d1074f9eaf))
+
+
+### Bug Fixes
+
+* also shim in `compile()` ([ef62768](https://github.com/kkpan11/catppuccin-vscode/commit/ef627682c24ab674e3a251737d222d64f6d2a177))
+* **distribution:** remove postinstall hook ([#290](https://github.com/kkpan11/catppuccin-vscode/issues/290)) ([fdc716b](https://github.com/kkpan11/catppuccin-vscode/commit/fdc716bbad1a8fddd8cd3e087a5a64a5b823d97a))
+* re-add theme JSON files ([#339](https://github.com/kkpan11/catppuccin-vscode/issues/339)) ([8e5d69a](https://github.com/kkpan11/catppuccin-vscode/commit/8e5d69ad57f4d622a7301a1317078d17045fcaf5))
+* shim theme name for shiki ([#336](https://github.com/kkpan11/catppuccin-vscode/issues/336)) ([e48b0a1](https://github.com/kkpan11/catppuccin-vscode/commit/e48b0a1b5f8bbef46c3329b4d9420e78cad5b84c))
+
 ## [3.15.2](https://github.com/catppuccin/vscode/compare/@catppuccin/vscode-v3.15.1...@catppuccin/vscode-v3.15.2) (2024-08-24)
 
 

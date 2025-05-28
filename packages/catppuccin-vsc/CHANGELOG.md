@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.18.0](https://github.com/kkpan11/catppuccin-vscode/compare/catppuccin-vsc-v3.17.0...catppuccin-vsc-v3.18.0) (2025-05-28)
+
+
+### Features
+
+* apply new ANSI terminal colours ([#446](https://github.com/kkpan11/catppuccin-vscode/issues/446)) ([034def5](https://github.com/kkpan11/catppuccin-vscode/commit/034def5822b59d35b14095511260c3b161aee947))
+* **compiler:** add verbose errors for wrong user config ([#288](https://github.com/kkpan11/catppuccin-vscode/issues/288)) ([8162693](https://github.com/kkpan11/catppuccin-vscode/commit/816269379fa8b2a7093f20ee774f770d8a48ec01))
+* highlight liquid objects/variables as `pink` ([#449](https://github.com/kkpan11/catppuccin-vscode/issues/449)) ([4c0e083](https://github.com/kkpan11/catppuccin-vscode/commit/4c0e0838ec57fd3bdfb675362f916ccb7e993d04))
+* **options:** add option to disable icon pack sync ([#348](https://github.com/kkpan11/catppuccin-vscode/issues/348)) ([54f5685](https://github.com/kkpan11/catppuccin-vscode/commit/54f5685f28ece588e9939f2ad02f903260f4d1c7))
+* rework selection background ([#342](https://github.com/kkpan11/catppuccin-vscode/issues/342)) ([08c34c0](https://github.com/kkpan11/catppuccin-vscode/commit/08c34c0758500d2d73fff7ca3742283936749beb))
+* support `autoDetectColorScheme` in icon sync ([#399](https://github.com/kkpan11/catppuccin-vscode/issues/399)) ([08de0d9](https://github.com/kkpan11/catppuccin-vscode/commit/08de0d9d44de6693d1379e40a48be797a4fb4715))
+* **syntax:** add dedicated highlighting for regex ([db58ea2](https://github.com/kkpan11/catppuccin-vscode/commit/db58ea28d502d8f27c8989526502efed921408b5))
+* **syntax:** add support for markdown in quarto documents ([#376](https://github.com/kkpan11/catppuccin-vscode/issues/376)) ([723a024](https://github.com/kkpan11/catppuccin-vscode/commit/723a02491ee040ab3cd4c76dcc7642eae4022039))
+* theme `testing*` config keys ([#458](https://github.com/kkpan11/catppuccin-vscode/issues/458)) ([f73aa19](https://github.com/kkpan11/catppuccin-vscode/commit/f73aa19d74010a33a9829e0ddc866ec63c6b0fad))
+
+
+### Bug Fixes
+
+* desync between icon pack and color theme ([#431](https://github.com/kkpan11/catppuccin-vscode/issues/431)) ([88ea69d](https://github.com/kkpan11/catppuccin-vscode/commit/88ea69daf599a08d8e5482b0d001fa243df6d423))
+* diff buttons color to have better contrast ([#406](https://github.com/kkpan11/catppuccin-vscode/issues/406)) ([c936d41](https://github.com/kkpan11/catppuccin-vscode/commit/c936d416a653153d6fb761ee62e160ad252bd8b9))
+* **less:** set properties to blue to match css ([#550](https://github.com/kkpan11/catppuccin-vscode/issues/550)) ([67bd19a](https://github.com/kkpan11/catppuccin-vscode/commit/67bd19a1d06ebda18bcc8a8902c1c5eb70bd01f8))
+* set `editor.wordHighlightStrongBackground` ([#448](https://github.com/kkpan11/catppuccin-vscode/issues/448)) ([36d1973](https://github.com/kkpan11/catppuccin-vscode/commit/36d1973e4648896a7f72221f582847db6acaff00))
+* settings json schema URL typo ([#272](https://github.com/kkpan11/catppuccin-vscode/issues/272)) ([acc33aa](https://github.com/kkpan11/catppuccin-vscode/commit/acc33aaefd0041028202cbe8ab3d02c0c6a9436d))
+* specify `scope: application` for all settings ([#507](https://github.com/kkpan11/catppuccin-vscode/issues/507)) ([c62e35f](https://github.com/kkpan11/catppuccin-vscode/commit/c62e35fdac952983c60a2d76cb3bad93955fe9f7))
+* switch to `esm.sh` for schemas ([#420](https://github.com/kkpan11/catppuccin-vscode/issues/420)) ([58771ad](https://github.com/kkpan11/catppuccin-vscode/commit/58771ad653cc5a987e9334932833b997d3115831))
+* **syntax:** JS `of` and `infer` expressions ([#312](https://github.com/kkpan11/catppuccin-vscode/issues/312)) ([b9e9d75](https://github.com/kkpan11/catppuccin-vscode/commit/b9e9d754c06d846f13fb7f4a908cfafbad5fd1ad))
+* **syntax:** JSDoc params color, `typeof` as keyword ([c6d63be](https://github.com/kkpan11/catppuccin-vscode/commit/c6d63be0421cd7548c3b87bea5e8bb73f1a93d1c))
+* **tokens/markdown:** match headings 5 & 6 to style guide ([#474](https://github.com/kkpan11/catppuccin-vscode/issues/474)) ([328b952](https://github.com/kkpan11/catppuccin-vscode/commit/328b952ef9a1b2568f1ac80ed702dd3599e37e1d))
+* **tokens/python:** mauve builtin types, peach language constants ([#477](https://github.com/kkpan11/catppuccin-vscode/issues/477)) ([b8e5951](https://github.com/kkpan11/catppuccin-vscode/commit/b8e5951a8ad03268854ef29780ce93fe9ea14294))
+* **tokens:** change comments from `overlay0` to `overlay2` ([#435](https://github.com/kkpan11/catppuccin-vscode/issues/435)) ([35b72d7](https://github.com/kkpan11/catppuccin-vscode/commit/35b72d7f39d24b8af0ccc512b9417e1115865df6))
+* **tokens:** consistently style typst headings ([#506](https://github.com/kkpan11/catppuccin-vscode/issues/506)) ([44925dd](https://github.com/kkpan11/catppuccin-vscode/commit/44925dd1405673da973e49020ce0228a450ea93c))
+* **ui:** command center appearance, de-emphasize borders ([#267](https://github.com/kkpan11/catppuccin-vscode/issues/267)) ([a822dfd](https://github.com/kkpan11/catppuccin-vscode/commit/a822dfdee0ee26067ac2a4d0de5aacd079d9d567))
+* **ui:** increase diff contrast ([406ac5b](https://github.com/kkpan11/catppuccin-vscode/commit/406ac5b7b4bcdb449d5e7f1e23b85ab78bfc5753))
+* **ui:** selection color for non-editor context ([#330](https://github.com/kkpan11/catppuccin-vscode/issues/330)) ([d3c0b6a](https://github.com/kkpan11/catppuccin-vscode/commit/d3c0b6aa05d8e2adff2c8de207845e2e0f211740))
+* **ui:** style `activityBarTop`  ([#316](https://github.com/kkpan11/catppuccin-vscode/issues/316)) ([a5c28e9](https://github.com/kkpan11/catppuccin-vscode/commit/a5c28e9319556c696e184a2f2f49813288063ed6))
+* **ui:** unverified breakpoints ([#311](https://github.com/kkpan11/catppuccin-vscode/issues/311)) ([4882feb](https://github.com/kkpan11/catppuccin-vscode/commit/4882feb791b7c38116ffe9b729d5769de892e488))
+* **ui:** use `mantle` for codeblock backgrounds ([#495](https://github.com/kkpan11/catppuccin-vscode/issues/495)) ([ea796fd](https://github.com/kkpan11/catppuccin-vscode/commit/ea796fdd9ed77c62c894b2216b948c905248a553))
+* update JSON schema for `customUIColors` ([#485](https://github.com/kkpan11/catppuccin-vscode/issues/485)) ([9bcff9e](https://github.com/kkpan11/catppuccin-vscode/commit/9bcff9eba7ab54a842e60ab7b68f3ee6f5bae34c))
+
 ## [3.17.0](https://github.com/catppuccin/vscode/compare/catppuccin-vsc-v3.16.1...catppuccin-vsc-v3.17.0) (2025-03-28)
 
 
